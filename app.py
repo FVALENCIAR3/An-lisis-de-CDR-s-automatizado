@@ -8,7 +8,7 @@ from streamlit_folium import st_folium # Import the missing st_folium function
 
 st.set_page_config(layout="wide", page_title="Análisis de Datos Geoespaciales")
 
-st.title("🕵️‍♂️ Análisis-de-CDR-s-automatizado
+st.title("🕵️‍♂️ Analisis-de-CDR-s-automatizado
 Análisis de inteligencia artificial que permite limpiar, organizar y analizar las bases de datos en archivos consolidados! convierte celdas hexadecimales y excluye números plataformas, también representa gráficamente en el mapa, genera la sinopsis del comportamiento, zona de mayor confort, residencia o trabajo habitual")
 
 # Funciones de limpieza de datos (replicadas de la Celda 1)
