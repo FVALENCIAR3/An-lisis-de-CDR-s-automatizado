@@ -25,16 +25,16 @@ except ImportError:
 # CONFIGURACIÓN
 # ============================================================
 st.set_page_config(
-    page_title="Análisis de CDRs Automatizado",
+    page_title="Análisis de CDR´s Automatizado",
     page_icon="🕵️‍♂️",
     layout="wide",
 )
 
-st.title("🕵️‍♂️ Análisis de CDRs Automatizado")
+st.title("🕵️‍♂️ Análisis de CDR´s Automatizado")
 st.caption(
-    "Análisis de inteligencia que permite limpiar, organizar y analizar "
-    "bases de datos CDR, con herramientas geográficas, espacio-temporales "
-    "y de perfilamiento."
+    "Análisis de inteligencia artificial que permite limpiar, organizar y analizar las bases de datos en archivos consolidados! "
+    "convierte celdas hexadecimales y excluye números de plataformas, también representa gráficamente en el mapa, "
+    "genera la sinopsis del comportamiento, zona de mayor permanencia, residencia o trabajo habitual del objetivo."
 )
 
 
