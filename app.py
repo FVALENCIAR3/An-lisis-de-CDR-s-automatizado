@@ -1418,13 +1418,15 @@ def analizar_rutinas(
                     pnt.style = style_dia
 
             kml_buffer = io.BytesIO()
-            kml.save(kml_buffer)
+            kml_buffer.write(kml.kml().encode("utf-8"))
+            kml_buffer.seek(0)
+
             st.download_button(
                 "⬇️ Descargar KML",
                 data=kml_buffer.getvalue(),
                 file_name=f"Ruta_Victimario_{num_vic}.kml",
                 mime="application/vnd.google-earth.kml+xml",
-                key="download_kml",
+                key=f"download_kml_{num_vic}",
             )
     else:
         st.info(
