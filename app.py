@@ -25,12 +25,12 @@ except ImportError:
 # CONFIGURACIÓN
 # ============================================================
 st.set_page_config(
-    page_title="Análisis de CDR´s Automatizado",
+    page_title="Análisis de CDR´s  Automatizado",
     page_icon="🕵️‍♂️",
     layout="wide",
 )
 
-st.title("🕵️‍♂️ Análisis de CDR´s Automatizado")
+st.title("🕵️‍♂️ Análisis de CDR´s  Automatizado")
 st.caption(
     "Análisis de inteligencia artificial que permite limpiar, organizar y analizar las bases de datos en archivos consolidados! "
     "convierte celdas hexadecimales y excluye números de plataformas, también representa gráficamente en el mapa, "
