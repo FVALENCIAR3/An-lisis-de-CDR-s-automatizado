@@ -427,7 +427,7 @@ with tabs[0]:
                     )
                     st.write("Columnas disponibles:")
                     st.code(", ".join(map(str, d.columns.tolist())))
-                    return
+                    st.stop()
 
                 d["latitud"] = pd.to_numeric(d["latitud"], errors="coerce")
                 d["longitud"] = pd.to_numeric(d["longitud"], errors="coerce")
@@ -443,7 +443,7 @@ with tabs[0]:
                         "⚠️ No existen registros con coordenadas y fecha válidas "
                         "para generar el mapa."
                     )
-                    return
+                    st.stop()
 
                 agrupado = (
                     d.groupby(
@@ -491,7 +491,7 @@ with tabs[0]:
 
                 if agrupado.empty:
                     st.warning("⚠️ No hay ubicaciones válidas para mostrar.")
-                    return
+                    st.stop()
 
                 top = agrupado.iloc[0]
                 st.info(
