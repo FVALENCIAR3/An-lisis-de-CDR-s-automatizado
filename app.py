@@ -136,7 +136,7 @@ st.title("🕵️‍♂️ Análisis de CDRs Automatizado")
 st.caption(
     "Análisis de inteligencia artificial que permite limpiar, organizar y analizar las bases de datos en archivos consolidados! "
     "convierte celdas hexadecimales y excluye números de plataformas, también representa gráficamente en el mapa,  "
-    "genera la sinopsis del comportamiento, zona de mayor confort, residencia o trabajo habitual. "
+    "genera la sinopsis del comportamiento, zona de mayor permanencia, residencia o trabajo habitual del objetivo. "
 )
 
 
