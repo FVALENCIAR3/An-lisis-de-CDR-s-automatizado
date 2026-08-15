@@ -1,0 +1,11 @@
+streamlit
+pandas
+openpyxl
+pyxlsb
+folium
+streamlit-folium
+matplotlib
+seaborn
+PyPDF2
+python-docx
+simplekml
